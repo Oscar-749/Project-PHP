@@ -38,7 +38,7 @@ email | varchar |
 password | varchar | 
 
 ### Movies
-
+Movies will be received through an external API via frontend.
 
 <a name="run"></a>
 ## 4. RUN
