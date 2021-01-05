@@ -5,7 +5,7 @@ Movie service backend developed on PHP
 2. [  FRONTEND  ](#front) :mega:
 3. [  DATABASE  ](#db) :floppy_disk:
 4. [ RUN ](#run) :rocket:
-5. [ TECHNOLOGIES USED  ](#tech) :hammer:
+5. [ USED TECHNOLOGIES ](#tech) :hammer:
 6. [  AUTHORS  ](#authors) :mailbox_closed:
 
 <a name="setup"></a>
@@ -53,7 +53,7 @@ Log Out | Log Out current session
 
 
 <a name="tech"></a>
-## 5. TECHNOLOGIES USED
+## 5. USED TECHNOLOGIES
 - PHP
 - Laravel
 - SQL
