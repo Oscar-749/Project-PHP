@@ -58,6 +58,6 @@ Log Out | Log Out current session
 
 <a name="authors"></a>
 ## 6. AUTHORS
-Adriano Osses
-Elena Sánchez de la Blanca
+Adriano Osses,
+Elena Sánchez de la Blanca,
 Oscar Soler
