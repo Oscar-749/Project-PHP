@@ -10,15 +10,18 @@ Movie service backend developed on PHP
 
 <a name="setup"></a>
 ## 1. SET UP
-1. Heroku:
-2. GitHub Page:
-3. Download and run:
+
+1. Download and run:
 ```
 composer i
 ```
 ```
 php artisan serve
 ```
+
+
+After downloading the file and installing dependencies, open up Apache module on Xampp, Wamp or similar to run this project. 
+This page will need to be open on a localhost.
 
 <a name="front"></a>
 ## 2. FRONT END
@@ -53,6 +56,7 @@ Log Out | Log Out current session
 ## 5. TECHNOLOGIES USED
 - PHP
 - Laravel
+- SQL
 
 
 
