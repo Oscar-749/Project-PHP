@@ -32,6 +32,8 @@ Name | Type | Description
 --- | --- | ---
 id | integer | auto increment
 name | varchar | 
+lastName | varchar |
+phone | varchar |
 email | varchar | 
 password | varchar | 
 
@@ -57,5 +59,5 @@ Log Out | Log Out current session
 <a name="authors"></a>
 ## 6. AUTHORS
 Adriano Osses
-Elena Sanchez de la Blanca
+Elena Sánchez de la Blanca
 Oscar Soler
