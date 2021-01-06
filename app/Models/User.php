@@ -16,6 +16,10 @@ class User extends Authenticatable {
      *
      * @var array
      */
+    public function role() {
+        return $this->hasOne(Role::class);
+    }
+    
     protected $fillable = [
         'name',
         'email',

@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'prefix' => 'auth'
 ], function () {
+    //Route::post('login', 'App\Http\Controllers\LoginController@login')->middleware(['auth:api', 'scope:admin']);
     Route::post('login', 'App\Http\Controllers\LoginController@login');
     Route::post('signup', 'App\Http\Controllers\SignupController@signUp');
 });
