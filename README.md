@@ -38,7 +38,8 @@ name | varchar |
 lastName | varchar |
 phone | varchar |
 email | varchar | 
-password | varchar | 
+password | varchar |
+address | varchar |
 
 ### Movies
 Movies will be received through an external API via frontend.
