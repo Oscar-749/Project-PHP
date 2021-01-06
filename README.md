@@ -72,6 +72,6 @@ Login. Example:<br/>
 
 <a name="authors"></a>
 ## 6. AUTHORS
-Adriano Osses,
-Elena Sánchez de la Blanca,
-Oscar Soler
+Adriano Osses <br>
+Elena Sánchez de la Blanca  <br>
+Oscar Soler  <br>
