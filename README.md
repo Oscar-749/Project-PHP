@@ -38,7 +38,8 @@ name | varchar |
 lastName | varchar |
 phone | varchar |
 email | varchar | 
-password | varchar | 
+password | varchar |
+address | varchar |
 
 ### Movies
 Movies will be received through an external API via frontend.
@@ -51,6 +52,15 @@ Register | Register a new user
 Log In | Log in an user
 Log Out | Log Out current session
 
+Homepage:<br/>
+![Homepage](https://i.ibb.co/TRLjDjF/mainmenu.png)
+
+
+How to register. Example:<br/>
+![Register](https://i.ibb.co/1sFLfKW/Register.png)
+
+Login. Example:<br/>
+![Login](https://i.ibb.co/P6CCgYy/login.png)
 
 <a name="tech"></a>
 ## 5. USED TECHNOLOGIES
