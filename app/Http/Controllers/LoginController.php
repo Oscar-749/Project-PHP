@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
+
 use App\Models\User;
 use Exception;
 
@@ -15,6 +18,35 @@ class LoginController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function login(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|string|email',
+            'password' => 'required|string'
+        ]);
+
+        if ($validator->fails()) {
+            response()->json([
+                'created' => false,
+                'errors'  => $validator->errors()->all()
+            ], 400);
+        }
+
+        $credentials = request(['email', 'password']);
+
+        if (!Auth::attempt($credentials))
+            return response()->json(['message' => 'Unauthorized'], 401);
+
+        $user = $request->user();
+
+        $tokenResult = $user->createToken($user->email.' - '.now());
+
+        return response()->json([
+            'access_token' => $tokenResult->accessToken,
+        ]);
+    }
+
     public function index(){
         return User::all();
     }

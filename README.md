@@ -5,20 +5,23 @@ Movie service backend developed on PHP
 2. [  FRONTEND  ](#front) :mega:
 3. [  DATABASE  ](#db) :floppy_disk:
 4. [ RUN ](#run) :rocket:
-5. [ TECHNOLOGIES USED  ](#tech) :hammer:
+5. [ USED TECHNOLOGIES ](#tech) :hammer:
 6. [  AUTHORS  ](#authors) :mailbox_closed:
 
 <a name="setup"></a>
 ## 1. SET UP
-1. Heroku:
-2. GitHub Page:
-3. Download and run:
+
+1. Download and run:
 ```
 composer i
 ```
 ```
 php artisan serve
 ```
+
+
+After downloading the file and installing dependencies, open up Apache module on Xampp, Wamp or similar to run this project. 
+This page will need to be open on a localhost.
 
 <a name="front"></a>
 ## 2. FRONT END
@@ -32,11 +35,14 @@ Name | Type | Description
 --- | --- | ---
 id | integer | auto increment
 name | varchar | 
+lastName | varchar |
+phone | varchar |
 email | varchar | 
-password | varchar | 
+password | varchar |
+address | varchar |
 
 ### Movies
-
+Movies will be received through an external API via frontend.
 
 <a name="run"></a>
 ## 4. RUN
@@ -48,14 +54,15 @@ Log Out | Log Out current session
 
 
 <a name="tech"></a>
-## 5. TECHNOLOGIES USED
+## 5. USED TECHNOLOGIES
 - PHP
 - Laravel
+- SQL
 
 
 
 <a name="authors"></a>
 ## 6. AUTHORS
-Adriano Osses
-Elena Sanchez de la Blanca
+Adriano Osses,
+Elena Sánchez de la Blanca,
 Oscar Soler
