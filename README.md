@@ -54,13 +54,13 @@ Log Out | Log Out current session
 
 Homepage:
 ![Homepage](https://i.ibb.co/TRLjDjF/mainmenu.png)
-https://ibb.co/82cvnvS.png
+
 
 How to register. Example:
-
+![Register](https://i.ibb.co/1sFLfKW/Register.png)
 
 Login. Example:
-
+![Login](https://i.ibb.co/P6CCgYy/login.png)
 
 <a name="tech"></a>
 ## 5. USED TECHNOLOGIES
