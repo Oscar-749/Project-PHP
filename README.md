@@ -52,6 +52,14 @@ Register | Register a new user
 Log In | Log in an user
 Log Out | Log Out current session
 
+Homepage:
+https://ibb.co/82cvnvS
+
+How to register. Example:
+
+
+Login. Example:
+
 
 <a name="tech"></a>
 ## 5. USED TECHNOLOGIES
