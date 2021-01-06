@@ -34,6 +34,6 @@ class SignupController extends Controller
             'address' => $request->address
         ]);
 
-        return response()->json(['message' => 'Cuenta creada con éxito'], 201);
+        return response()->json(['message' => 'Success!'], 201);
     }
 }

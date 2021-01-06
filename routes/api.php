@@ -20,6 +20,10 @@ Route::group([
     Route::post('login', 'App\Http\Controllers\LoginController@login');
     Route::post('signup', 'App\Http\Controllers\SignupController@signUp');
 });
+
+Route::get('getUser/{email}', 'App\Http\Controllers\UserController@findByEmail');
+Route::post('storeorder', 'App\Http\Controllers\OrderController@store');
+
 /*
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
